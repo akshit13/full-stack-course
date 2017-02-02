@@ -1,0 +1,42 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Bangers', cursive;
+	font-size: 1em;
+}
+
+.para{
+	background-color: #F8F8F8;
+	color: black;
+	padding: 5%;
+}
+
+.row{
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+h1{
+	font-size: 1.67em;
+	font-family: 'Bangers', cursive;
+	margin-top: 2%;;
+	margin-bottom: 3%;
+}
+h3{
+	margin-top: 0;
+	font-size: 1.25em;
+}
+.navbar-brand{
+	font-size: 2em;
+	margin: 10px;
+}
+
+
+/* For md, sm and xs */
+@media (max-width: 1199px) {
+	.col{
+		margin-bottom: 2%;
+	}
+}
